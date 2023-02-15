@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-peow
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:karthik-jk-tenant-devfile-sample-peow
+      - image: quay.io/redhat-appstudio/user-workload@sha256:8325eb63d349409e9a53b53129ccf8cc28d5dc530e9f6787b2871941fcd30c2e
         name: my-nodejs
         ports:
         - containerPort: 3001
